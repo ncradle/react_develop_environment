@@ -1,0 +1,13 @@
+version: '3'
+services:
+  react-dev:
+    build: .
+    container_name: reacton
+    working_dir: /usr/src/app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./react_workspace:/usr/src/app
+    tty: true
+    stdin_open: true
+  
