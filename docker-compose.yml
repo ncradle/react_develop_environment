@@ -3,11 +3,12 @@ services:
   react-dev:
     build: .
     container_name: reacton
-    working_dir: /usr/src/app
     ports:
       - "3000:3000"
     volumes:
       - ./react_workspace:/usr/src/app
+    working_dir: /usr/src/app/react-webtool-dev
     tty: true
     stdin_open: true
+    command: /bin/sh -c "npm install && npm start"
   
