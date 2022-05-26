@@ -8,7 +8,7 @@ https://github.com/jhako/react-webtool-dev
 
 dockerをinstallしておく。
 
-## Deploy
+## 初回起動
 
 本リポジトリをcloneし、本ディレクトリ内で以下を実行する。
 
@@ -32,7 +32,7 @@ react_develop_environment内で下記を実行
 docker-compose stop
 ```
 
-## 初回起動時移行に開発環境を立ち上げる時
+## 初回移行に開発環境の立ち上げ
 
 react_develop_environment内で下記を実行する。停止方法は同じ。
 
